@@ -1,16 +1,9 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "chatApp/app.py",
-        "use": "@vercel/python"
-      }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "chatApp/app.py"
-      }
-    ]
-  }
+	"version": 2,
+	"public": false,
+	"builds": [{ "src": "chatApp/app.py", "use": "@vercel/python" }],
+	"routes": [
+		{ "src": "^(.*)$", "dest": "chatApp/app.py" }
+	]
+}
   
