@@ -74,7 +74,7 @@
             <script type="text/javascript">
 
                 $(document).ready(function() {
-                    var socket = io.connect('http://192.168.31.190:5000');
+                    var socket = io.connect('https://tu-app.vercel.app');
 0
                     socket.on('connect', function() {
                         socket.send('{{ room_id }}-{{ user_id }}-{{ name }}-connected');
