@@ -26,6 +26,7 @@ httpx==0.23.1
 idna==2.10
 itsdangerous==2.1.2
 Jinja2==3.0.0
+MarkupSafe==2.0.0rc2
 mccabe==0.6.1
 mypy-extensions==0.4.3
 pathspec==0.8.1
