@@ -11,6 +11,7 @@
         "src": "/(.*)",
         "dest": "chatApp/app.py"
       }
-    ]
+    ],
+    "root": "prChatApp"
   }
   
