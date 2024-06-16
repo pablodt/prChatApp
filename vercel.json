@@ -1,9 +1,9 @@
 {
 	"version": 2,
 	"public": false,
-	"builds": [{ "src": "chatApp/app.py", "use": "@vercel/python" }],
+	"builds": [{ "src": "app.py", "use": "@vercel/python" }],
 	"routes": [
-		{ "src": "^(.*)$", "dest": "chatApp/app.py" }
+		{ "src": "/(.*)$", "dest": "app.py" }
 	]
 }
   
