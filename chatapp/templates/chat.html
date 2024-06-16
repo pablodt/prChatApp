@@ -74,7 +74,7 @@
             <script type="text/javascript">
 
                 $(document).ready(function() {
-                    var socket = io.connect('https://tu-app.vercel.app');
+                    var socket = io.connect('https://pr-chat-app.vercel.app/');
 0
                     socket.on('connect', function() {
                         socket.send('{{ room_id }}-{{ user_id }}-{{ name }}-connected');
